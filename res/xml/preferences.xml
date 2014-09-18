@@ -1,4 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:frontalmind="http://frontalmind.com" >
+            <ListPreference
+            android:defaultValue="hexagon"
+            android:dialogTitle="@string/pref_shape"
+            android:entries="@array/entries_shape_preference"
+            android:entryValues="@array/entryvalues_shape_preference"
+            android:key="pref_shape"
+            android:summary="@string/summary_shape_preference"
+            android:title="@string/title_shape_preference" />
+    
+        <ListPreference
+            android:defaultValue="All"
+            android:dialogTitle="@string/pref_star_color_title"
+            android:entries="@array/entries_color_preference"
+            android:entryValues="@array/entryvalues_color_preference"
+            android:key="pref_star_color"
+            android:summary="@string/pref_star_color_summ"
+            android:title="@string/pref_star_color_title" />
+    <com.frontalmind.SeekBarPreference
+        android:defaultValue="10"
+        android:key="pref_move_rate"
+        android:max="20"
+        android:summary="@string/pref_move_rate_summ"
+        android:title="@string/pref_move_rate_title"
+        frontalmind:min="1"
+        frontalmind:unitsLeft=""
+        frontalmind:unitsRight="" />
+    <com.frontalmind.SeekBarPreference
+        android:defaultValue="10"
+        android:key="pref_spin_rate"
+        android:max="20"
+        android:summary="@string/pref_spin_rate_summ"
+        android:title="@string/pref_spin_rate_title"
+        frontalmind:min="1"
+        frontalmind:unitsLeft=""
+        frontalmind:unitsRight="" />
+    <com.frontalmind.SeekBarPreference
+        android:defaultValue="5"
+        android:key="pref_star_number"
+        android:max="15"
+        android:summary="@string/pref_star_number_summ"
+        android:title="@string/pref_star_number_title"
+        frontalmind:min="1"
+        frontalmind:unitsLeft=""
+        frontalmind:unitsRight="" />
 </PreferenceScreen>

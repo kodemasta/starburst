@@ -1,8 +1,49 @@
 <resources>
-
-    <string name="app_name">ShapeBurst</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="app_name">StarBurst</string>
     <string name="menu_settings">Settings</string>
-    <string name="title_activity_main">MainActivity</string>
-
+    <string name="title_activity_main">Star Burst</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="pref_life_rate_title">Star Life Span Rate</string>
+    <string name="pref_life_rate_summ">Star birth to death speed</string>
+    <string name="pref_spin_rate_title">Maximum Star Spin Rate</string>
+    <string name="pref_spin_rate_summ">Maximum spin rate of stars</string>
+    <string name="pref_move_rate_title">Maximum Star Speed</string>
+    <string name="pref_move_rate_summ">Maximum speed of stars</string>
+    <string name="pref_star_number_title">Maximum Number of Stars</string>
+    <string name="pref_star_number_summ">Maximum number of stars</string>
+    <string name="pref_star_size_title">Maximum Size of Stars</string>
+    <string name="pref_star_size_summ">Maximum size of stars</string>
+    <string name="pref_star_color_title">Color Range of Stars</string>
+    <string name="pref_star_color_summ">Color range of stars</string>
+    <string-array name="entries_color_preference">
+        <item >All Colors</item>
+        <item >Red</item>
+        <item >Green</item>
+        <item >Blue</item>
+        <item >Blue-Green</item>
+        <item >Red-Green</item>
+        <item >Red-Blue</item>
+        <item >Black-White</item>
+    </string-array>
+    <string-array name="entryvalues_color_preference">
+        <item >All </item>
+        <item >Red</item>
+        <item >Green</item>
+        <item >Blue</item>
+        <item >Cyan</item>
+        <item >Yellow</item>
+        <item >Magenta</item>
+        <item >Gray</item>
+    </string-array>
+    <string name="pref_shape">Cell Shape</string>
+    <string name="summary_shape_preference">set shape of cells</string>
+    <string name="title_shape_preference">Cell Shape</string>
+    <string-array name="entries_shape_preference">
+        <item >Star</item>
+        <item >Heart</item>
+        </string-array>
+    <string-array name="entryvalues_shape_preference">
+        <item >star</item>
+        <item >heart</item>
+    </string-array>
 </resources>
